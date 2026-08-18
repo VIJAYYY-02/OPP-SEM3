@@ -1,0 +1,4 @@
+public:
+ rm(int size){
+    
+ }
