@@ -19,7 +19,7 @@ class player{
 }};
 
 int main(){
-    player p1("John", 25);
+  
     player p2("Alice");
     return 0;
 }
