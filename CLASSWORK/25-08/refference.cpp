@@ -10,3 +10,17 @@ class node{
         node(int val):data(val),next(NULL)
         
 };
+int main(){
+    node* head=new node(10);
+    node* second=new node(20);
+    node* third=new node(30);
+    head->next=second;
+    second->next=third;
+
+    node* temp=head;
+    while(temp!=NULL){
+        cout<<temp->data<<" ";
+        temp=temp->next;
+    }
+    return 0;
+}
