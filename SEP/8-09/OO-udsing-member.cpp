@@ -16,6 +16,7 @@ class Number {
     void display() {
         cout << "Value: " << x << endl;
     }
+};
     int main() {
         Number n1(10), n2(20), n3(0);
 
